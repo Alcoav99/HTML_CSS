@@ -5,9 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--compatibilidad del navegador-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--tamaño del dispositivo a escala-->
     <title>HTML</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Titulo Principal</h1> 
     <p> <b>Hola</b> este es un parrafo</p> 
+    <hr>
+    <a href="https://www.google.com/" target="_blank">Google!</a> <!--href atributo de a donde va la liga, target atributo para que abra la pagina en una tab nueva.-->
+    <br>
+    <img src="images/logo.png" alt="logo" width="200px">
+    <br>
+    <h3 class="listas">Comidas Favoritas de un gato</h3>
+    <ol>
+        <li> <a href="https://es.wikipedia.org/wiki/Pescado" target="_blank">Pescado</a></li>
+        <li>Croquetas</li>
+        <li>Tuna</li>
+        <li>Jamon</li>
+        <li>Tortilla</li>
+    </ol>
+    <h3 id="CosasOdio" class="listas">Cosas que odian los gatos</h3>
+    <ul>
+        <li>Perros</li>
+        <li>Algunas personas</li>
+        <li>Agua</li>
+        <li>Niños</li>
+    </ul>
+    <form>
+        <p><label for="Usuario">Usuario:</label></p>
+        <input type="text" id="Usuario">
+        <br>
+        <p><label for="Passwprd">Contraseña:</label></p>
+        <input type="password" id="password">
+        <br>
+        <button>Submit</button>
+    </form>
 </body>
 </html>

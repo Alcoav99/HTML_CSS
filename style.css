@@ -1,0 +1,12 @@
+h1 {
+    color: red;
+    font-size: 50px;
+    font-family:fantasy;
+    letter-spacing: 10px;
+    background-color: black;
+    font-style: italic;
+    writing-mode: sideways-rl;
+
+}
+#CosasOdio {color: darkgoldenrod;}
+.listas {font-size: 30px;}
